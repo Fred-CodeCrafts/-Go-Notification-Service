@@ -5,17 +5,6 @@ A modular notification service written in Go, designed for teaching and real-wor
 ✅ Currently runs **without Redis** (mock mode).  
 🛠️ Redis/Docker support is **under implementation**.
 
----
-
-## 🧱 Project Structure
-
-notification-service/
-├── cmd/                # App entry point
-├── core/               # Domain models
-├── internal/           # Handlers, logic
-├── adapters/           # Notification adapters (email, sms, etc.)
-├── interfaces/         # Interfaces for adapter contracts
-├── simulate/           # Redis publisher simulator (not required in mock mode)
 
 ---
 
